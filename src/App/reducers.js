@@ -1,6 +1,8 @@
 
 
-const Actionhandlers = {};
+const Actionhandlers = {
+    
+};
 export default (state = {}, action) => {
     const currenthandler = Actionhandlers[action.type]
     if (currenthandler) {
